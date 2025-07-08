@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashport Trading PLC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #004d99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #003366;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #002244;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .team, .contact {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      flex: 1;
+      min-width: 250px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    form button {
+      background-color: #004d99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Ashport Trading PLC</h1>
+    <p>Electrical Testing, Trading & Engineering Solutions</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="fade-in">
+    <h2>About Us</h2>
+    <p>Ashport Trading PLC is a leading provider of electrical testing, trading, and engineering solutions in Ethiopia. We specialize in quality assurance, electrical installations, and system reliability for commercial and industrial sectors.</p>
+  </section>
+
+  <section id="services" class="fade-in">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Electrical Testing & Commissioning</li>
+      <li>Trading of Electrical Equipment</li>
+      <li>Solar Energy Solutions</li>
+      <li>Industrial Automation & Controls</li>
+    </ul>
+  </section>
+
+  <section id="team" class="fade-in">
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="card">
+        <h3>Eng. Hadera Gebru</h3>
+        <p>Electrical Test Engineer</p>
+      </div>
+      <div class="card">
+        <h3>Other Team Member</h3>
+        <p>Sales/Engineering Support</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ashport Trading PLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
